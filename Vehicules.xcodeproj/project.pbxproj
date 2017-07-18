@@ -12,6 +12,16 @@
 		9BA685421F1E8943005A032F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA685401F1E8943005A032F /* Main.storyboard */; };
 		9BA685441F1E8943005A032F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA685431F1E8943005A032F /* Assets.xcassets */; };
 		9BA685471F1E8944005A032F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA685451F1E8944005A032F /* LaunchScreen.storyboard */; };
+		9BA6854F1F1E8C3B005A032F /* CellClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6854E1F1E8C3B005A032F /* CellClass.swift */; };
+		9BA685531F1EA544005A032F /* AutoMobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA685521F1EA544005A032F /* AutoMobile.swift */; };
+		9BA685571F1EAC77005A032F /* Motorise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA685561F1EAC77005A032F /* Motorise.swift */; };
+		9BA6855D1F1EAE3B005A032F /* fiat.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA685581F1EAE3B005A032F /* fiat.png */; };
+		9BA6855E1F1EAE3B005A032F /* focus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BA685591F1EAE3B005A032F /* focus.jpg */; };
+		9BA6855F1F1EAE3B005A032F /* harley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6855A1F1EAE3B005A032F /* harley.jpg */; };
+		9BA685601F1EAE3B005A032F /* hymer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6855B1F1EAE3B005A032F /* hymer.jpg */; };
+		9BA685611F1EAE3B005A032F /* prevost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6855C1F1EAE3B005A032F /* prevost.jpg */; };
+		9BA685641F1EB7DD005A032F /* Vehicule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA685631F1EB7DD005A032F /* Vehicule.swift */; };
+		9BA685691F1EBAE2005A032F /* Moto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA685681F1EBAE2005A032F /* Moto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		9BA685431F1E8943005A032F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BA685461F1E8944005A032F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BA685481F1E8944005A032F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA6854E1F1E8C3B005A032F /* CellClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellClass.swift; sourceTree = "<group>"; };
+		9BA685521F1EA544005A032F /* AutoMobile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoMobile.swift; sourceTree = "<group>"; };
+		9BA685561F1EAC77005A032F /* Motorise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motorise.swift; sourceTree = "<group>"; };
+		9BA685581F1EAE3B005A032F /* fiat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fiat.png; sourceTree = "<group>"; };
+		9BA685591F1EAE3B005A032F /* focus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = focus.jpg; sourceTree = "<group>"; };
+		9BA6855A1F1EAE3B005A032F /* harley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harley.jpg; sourceTree = "<group>"; };
+		9BA6855B1F1EAE3B005A032F /* hymer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hymer.jpg; sourceTree = "<group>"; };
+		9BA6855C1F1EAE3B005A032F /* prevost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prevost.jpg; sourceTree = "<group>"; };
+		9BA685631F1EB7DD005A032F /* Vehicule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicule.swift; sourceTree = "<group>"; };
+		9BA685681F1EBAE2005A032F /* Moto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,32 @@
 		9BA6853B1F1E8943005A032F /* Vehicules */ = {
 			isa = PBXGroup;
 			children = (
-				9BA6853C1F1E8943005A032F /* AppDelegate.swift */,
 				9BA6853E1F1E8943005A032F /* ViewController.swift */,
+				9BA685631F1EB7DD005A032F /* Vehicule.swift */,
+				9BA685681F1EBAE2005A032F /* Moto.swift */,
+				9BA6853C1F1E8943005A032F /* AppDelegate.swift */,
+				9BA685621F1EAF47005A032F /* images */,
+				9BA685561F1EAC77005A032F /* Motorise.swift */,
+				9BA685521F1EA544005A032F /* AutoMobile.swift */,
+				9BA6854E1F1E8C3B005A032F /* CellClass.swift */,
 				9BA685401F1E8943005A032F /* Main.storyboard */,
 				9BA685431F1E8943005A032F /* Assets.xcassets */,
 				9BA685451F1E8944005A032F /* LaunchScreen.storyboard */,
 				9BA685481F1E8944005A032F /* Info.plist */,
 			);
 			path = Vehicules;
+			sourceTree = "<group>";
+		};
+		9BA685621F1EAF47005A032F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9BA685581F1EAE3B005A032F /* fiat.png */,
+				9BA685591F1EAE3B005A032F /* focus.jpg */,
+				9BA6855A1F1EAE3B005A032F /* harley.jpg */,
+				9BA6855B1F1EAE3B005A032F /* hymer.jpg */,
+				9BA6855C1F1EAE3B005A032F /* prevost.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BA685471F1E8944005A032F /* LaunchScreen.storyboard in Resources */,
+				9BA6855E1F1EAE3B005A032F /* focus.jpg in Resources */,
+				9BA6855F1F1EAE3B005A032F /* harley.jpg in Resources */,
 				9BA685441F1E8943005A032F /* Assets.xcassets in Resources */,
+				9BA685601F1EAE3B005A032F /* hymer.jpg in Resources */,
+				9BA685611F1EAE3B005A032F /* prevost.jpg in Resources */,
 				9BA685421F1E8943005A032F /* Main.storyboard in Resources */,
+				9BA6855D1F1EAE3B005A032F /* fiat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +179,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA685691F1EBAE2005A032F /* Moto.swift in Sources */,
+				9BA6854F1F1E8C3B005A032F /* CellClass.swift in Sources */,
 				9BA6853F1F1E8943005A032F /* ViewController.swift in Sources */,
+				9BA685641F1EB7DD005A032F /* Vehicule.swift in Sources */,
 				9BA6853D1F1E8943005A032F /* AppDelegate.swift in Sources */,
+				9BA685531F1EA544005A032F /* AutoMobile.swift in Sources */,
+				9BA685571F1EAC77005A032F /* Motorise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +347,7 @@
 				9BA6854D1F1E8944005A032F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
